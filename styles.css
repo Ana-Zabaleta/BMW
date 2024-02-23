@@ -1,11 +1,10 @@
-* {
+body {
   margin: 0;
-  padding: 0;
 }
 
 .b-header {
   height: 100vh;
-  background-image: url(/assets/joey-banks-YApiWyp0lqo-unsplash.jpg);
+  background-image: url(/BMW/assets/rodan-can-6cqJPeTIuls-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -34,6 +33,7 @@
   padding: 0px 10px;
   font-family: Roboto, sans-serif;
   font-weight: bold;
+  color: white;
 }
 .nav-icons {
   display: flex;
@@ -42,6 +42,7 @@
 }
 .nav-icons span {
   margin: 10px;
+  color: white;
 }
 .nav-icons img {
   width: 8%;
@@ -82,11 +83,12 @@ h3 {
   border-bottom: 2px solid lightgray;
   color: lightgray;
 }
+
 .b-gallery-menu ul {
   display: flex;
   list-style: none;
   font-family: Roboto, sans-serif;
-  color: lightgray;
+  color: #d3d3d3;
   border-bottom: 1px solid lightgrey;
   margin-top: 30px;
 }
@@ -98,7 +100,7 @@ h3 {
 }
 
 .b-gallery-menu li {
-  padding: 30px;
+  padding: 28px;
   font-size: 18px;
 }
 
@@ -166,4 +168,94 @@ h3 {
   color: blue;
   font-size: 12px;
   text-decoration: none;
+}
+
+.b-article__video {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.b-articles__video-gallery {
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+.b-articles__video-containers {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin: 5px;
+}
+
+.b-articles__video-containers img {
+  width: 100%;
+}
+.b-articles__video-containers h2 {
+  font-size: 30px;
+}
+.b-articles__video-containers p {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.b-icons_flex {
+  width: 80%;
+  margin: 0 auto;
+}
+.icons_gallery {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  justify-content: center;
+}
+
+.icons_gallery span {
+  margin-right: 20px;
+  padding: 40px 100px;
+  background-color: #f1f2f2;
+  display: flex;
+}
+
+.b-contact {
+  background-color: #e6e6e6;
+  width: 100%;
+}
+
+.b-contact {
+  font-family: Roboto, sans-serif;
+  margin-top: 70px;
+}
+.b-contact_table {
+  width: 80%;
+  padding: 70px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tbody {
+  padding: 10px;
+}
+
+footer {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+}
+
+.b-footer_left {
+  margin-left: 30px;
+  font-weight: 600;
+}
+.b-footer_right ul {
+  display: flex;
+  list-style: none;
+}
+.b-footer_right li {
+  padding: 20px;
+  font-size: 12px;
+  color: blue;
 }
